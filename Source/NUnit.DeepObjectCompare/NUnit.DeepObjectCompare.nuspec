@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Philip Hoppe</authors>
+    <owners>Philip Hoppe</owners>
+    <projectUrl>https://github.com/PolarbearDK/NUnit.DeepObjectCompare</projectUrl>
+    <iconUrl>http://nunit.org/nuget/nunitv3_32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Add deep object comparison to your NUnit tests. 
+		Simply use Is.DeepEqualTo in place of Is.EqualTo in tests.
+		</description>
+		<summary>Add deep object comparison to NUnit unit-testing framework.</summary>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>NUnit deep object objects compare comparison equality equal difference compareobjects DeepEqualTo DeepEqual CompareNetObjects</tags>
+  </metadata>
+</package>
