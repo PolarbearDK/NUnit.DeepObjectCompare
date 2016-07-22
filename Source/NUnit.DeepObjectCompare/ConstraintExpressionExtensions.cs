@@ -2,6 +2,9 @@ using NUnit.Framework.Constraints;
 
 namespace NUnit.DeepObjectCompare
 {
+    /// <summary>
+    /// Add ability to do DeepEqualTo on ConstraintExpressions
+    /// </summary>
     public static class ConstraintExpressionExtensions
     {
         /// <summary>
@@ -9,7 +12,7 @@ namespace NUnit.DeepObjectCompare
         /// </summary>
         public static DeepObjectEqualConstraint DeepEqualTo(this ConstraintExpression constraint, object expected)
         {
-            return (DeepObjectEqualConstraint)constraint.Append((Constraint)new DeepObjectEqualConstraint(expected));
+            return (DeepObjectEqualConstraint)constraint.Append(new DeepObjectEqualConstraint(expected));
         }
     }
 }

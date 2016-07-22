@@ -3,20 +3,23 @@ using NUnit.Framework.Constraints;
 
 namespace NUnit.DeepObjectCompare
 {
+    /// <summary>
+    /// Result from deep object comparison
+    /// </summary>
     public class DeepObjectEqualConstraintResult : ConstraintResult
     {
+        private readonly DeepObjectEqualConstraint _constraint;
+        private readonly ComparisonResult _comparisonResult;
+
         /// <summary>
         /// Construct an DeepObjectEqualConstraintResult
         /// </summary>
         public DeepObjectEqualConstraintResult(DeepObjectEqualConstraint constraint, object actual, ComparisonResult comparisonResult)
             : base(constraint, actual, comparisonResult.AreEqual)
         {
+            _constraint = constraint;
             _comparisonResult = comparisonResult;
-            Constraint = constraint;
         }
-
-        private readonly ComparisonResult _comparisonResult;
-        public DeepObjectEqualConstraint Constraint { get; set; }
 
         /// <summary>
         /// Write a failure message. Overridden to list deep object differences
