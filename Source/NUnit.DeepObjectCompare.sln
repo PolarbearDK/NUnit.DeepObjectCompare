@@ -15,17 +15,27 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Release 4.5|Any CPU = Release 4.5|Any CPU
+		Release 4.5.2|Any CPU = Release 4.5.2|Any CPU
+		Release 4.6|Any CPU = Release 4.6|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D3840E6D-B990-4F23-9002-52F545FC0525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3840E6D-B990-4F23-9002-52F545FC0525}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release 4.5.2|Any CPU.ActiveCfg = Release 4.5.2|Any CPU
+		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release 4.5.2|Any CPU.Build.0 = Release 4.5.2|Any CPU
+		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release 4.6|Any CPU.ActiveCfg = Release 4.6|Any CPU
+		{D3840E6D-B990-4F23-9002-52F545FC0525}.Release 4.6|Any CPU.Build.0 = Release 4.6|Any CPU
 		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release 4.5.2|Any CPU.ActiveCfg = Release 4.5.2|Any CPU
+		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release 4.5.2|Any CPU.Build.0 = Release 4.5.2|Any CPU
+		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release 4.6|Any CPU.ActiveCfg = Release 4.6|Any CPU
+		{1BFC87D7-5502-4812-9CFE-2CB1059DF4EA}.Release 4.6|Any CPU.Build.0 = Release 4.6|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

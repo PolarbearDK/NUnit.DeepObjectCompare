@@ -13,8 +13,13 @@
 		Simply use Is.DeepEqualTo in place of Is.EqualTo in tests.
 		</description>
 		<summary>Add deep object comparison to NUnit unit-testing framework.</summary>
-    <releaseNotes>Initial version.</releaseNotes>
+    <releaseNotes>Add more targets (.NET 4.5 and .NET 4.6)</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>NUnit deep object objects compare comparison equality equal difference compareobjects DeepEqualTo DeepEqual CompareNetObjects</tags>
   </metadata>
+  <files>
+    <file src="bin\Release 4.5\NUnit.DeepObjectCompare.dll" target="lib\net45\NUnit.DeepObjectCompare.dll" />
+    <file src="bin\Release 4.5.2\NUnit.DeepObjectCompare.dll" target="lib\net452\NUnit.DeepObjectCompare.dll" />
+    <file src="bin\Release 4.6\NUnit.DeepObjectCompare.dll" target="lib\net46\NUnit.DeepObjectCompare.dll" />
+  </files>
 </package>
