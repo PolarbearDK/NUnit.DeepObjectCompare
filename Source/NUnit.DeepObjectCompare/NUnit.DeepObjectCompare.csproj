@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net45;net452;net46;net461;net462;netstandard1.6;netstandard2.0</TargetFrameworks>
-		<Version>2.0.0</Version>
+		<Version>2.0.1</Version>
 		<Authors>Philip Hoppe</Authors>
-		<Company>Philip Hoppe</Company>
+		<Company>Danish Software Development</Company>
 		<PackageProjectUrl>https://github.com/PolarbearDK/NUnit.DeepObjectCompare</PackageProjectUrl>
-		<PackageLicenseUrl></PackageLicenseUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageIcon>nunit.png</PackageIcon>
 		<PackageIconUrl>http://nunit.org/nuget/nunitv3_32x32.png</PackageIconUrl>
 		<RepositoryUrl>https://github.com/PolarbearDK/NUnit.DeepObjectCompare</RepositoryUrl>
 		<RepositoryType>GitHub</RepositoryType>
@@ -13,13 +14,20 @@
 		<Description>Add deep object comparison to your NUnit assertions.
 
 Simply use Is.DeepEqualTo in place of Is.EqualTo.</Description>
-		<PackageReleaseNotes>Add more targets (netstandard1.6)</PackageReleaseNotes>
+		<PackageReleaseNotes>Adopt a License</PackageReleaseNotes>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Copyright>Copyright © 2016-2018, PolarbearDK</Copyright>
+		<Copyright>Copyright © 2016-2021, PolarbearDK</Copyright>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CompareNETObjects" Version="4.0.0" />
 		<PackageReference Include="NUnit" Version="3.6.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE.txt" Link="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+		<Content Include="..\nunit.png" Link="nunit.png" Pack="true" PackagePath="\">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
 	</ItemGroup>
 </Project>

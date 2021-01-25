@@ -8,9 +8,9 @@ $ErrorActionPreference = "Stop"
 
 if($pack) {
   & dotnet build --configuration Release
-	if(!$?){throw "NuGet returned exit code $LASTEXITCODE"}
+	if(!$?){throw "dotnet build returned exit code $LASTEXITCODE"}
   dotnet vstest ((ls -Recurse *.Test?.dll | % FullName) -Match "\\bin\\Release\\")
-	if(!$?){throw "NuGet returned exit code $LASTEXITCODE"}
+	if(!$?){throw "dotnet test returned exit code $LASTEXITCODE"}
 }
 
 if($push) {
